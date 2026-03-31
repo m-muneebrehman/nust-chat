@@ -17,7 +17,7 @@ model = SentenceTransformer('all-MiniLM-L6-v2')
 print("Ready.")
 
 # Threshold – adjust as needed
-SCORE_THRESHOLD = 1.071
+SCORE_THRESHOLD = 1.11
 
 def get_answer(query):
     q_emb = model.encode([query])
